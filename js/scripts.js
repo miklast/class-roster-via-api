@@ -23,6 +23,10 @@ fetch(url)
 
     // loop through data
     data.records.forEach( student => {
+
+      //console.log(student.fields.Emoji);
+
+      //todo: fix Karen's emoji with logic that replaces the U+ with the emoji itself (is this possible?)
       
       // template
       const template = `
