@@ -31,8 +31,7 @@ fetch(url)
       // template
       const template = `
           <figure>
-            <figcaption>${student.fields.Name}</figcaption>
-            <p>${student.fields.Emoji}</p>
+            <figcaption>${student.fields.Name} | ${student.fields.Emoji}</figcaption> 
             <img src="${student.fields.Image[0].url}" alt="${student.fields.Name}">
           </figure>
        `;
